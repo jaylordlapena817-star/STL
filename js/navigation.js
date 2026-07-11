@@ -3,7 +3,7 @@ const page = location.pathname.split("/").pop();
 const nav = `
 <nav class="bottom-nav">
 
-<a href="dashboard.html" ${page=="dashboard.html"?'class="active"':""}>
+<a href="index.html" ${page=="dashboard.html"?'class="active"':""}>
 <i>🏠</i>
 <span>Home</span>
 </a>
