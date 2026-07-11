@@ -34,7 +34,7 @@ onAuthStateChanged(auth, async (user) => {
         // Check admin role
         if (userData.role !== "admin") {
             alert("Access Denied");
-            location.href = "dashboard.html";
+            location.href = "index.html";
             return;
         }
 
