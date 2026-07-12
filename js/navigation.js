@@ -13,7 +13,7 @@ const nav = `
 <span>Bet</span>
 </a>
 
-<a href="results.html" ${page=="result.html"?'class="active"':""}>
+<a href="result.html" ${page=="result.html"?'class="active"':""}>
 <i>🏆</i>
 <span>Results</span>
 </a>
