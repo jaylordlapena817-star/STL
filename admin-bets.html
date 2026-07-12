@@ -1,48 +1,122 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+
 <meta charset="UTF-8">
+
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <title>Admin Bets</title>
 
+
 <link rel="stylesheet" href="css/admin-bets.css">
 
+
 </head>
+
+
 <body>
+
 
 <div class="container">
 
+
 <h1>🎯 All Bets</h1>
+
+
 
 <input
 type="text"
 id="search"
 placeholder="Search UID...">
 
+
+
+
+
 <select id="drawFilter">
 
-<option value="">All Draws</option>
-<option value="morning">Morning</option>
-<option value="afternoon">Afternoon</option>
-<option value="evening">Evening</option>
+<option value="">
+All Draws
+</option>
+
+<option value="morning">
+Morning
+</option>
+
+<option value="afternoon">
+Afternoon
+</option>
+
+<option value="evening">
+Evening
+</option>
+
 
 </select>
+
+
+
+
+
 
 <select id="statusFilter">
 
-<option value="">All Status</option>
-<option value="Pending">Pending</option>
-<option value="Win">Win</option>
-<option value="Lose">Lose</option>
+
+<option value="">
+All Status
+</option>
+
+
+<option value="Pending">
+Pending
+</option>
+
+
+<option value="Approved">
+Approved
+</option>
+
+
+<option value="Rejected">
+Rejected
+</option>
+
+
+<option value="Win">
+Win
+</option>
+
+
+<option value="Lose">
+Lose
+</option>
+
+
 
 </select>
 
+
+
+
+
 <div id="betsList"></div>
+
+
+
 
 </div>
 
+
+
+
+
 <script type="module" src="js/admin-bets.js"></script>
 
+
+
+
 </body>
+
 </html>
