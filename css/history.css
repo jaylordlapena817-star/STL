@@ -1,55 +1,168 @@
 *{
-margin:0;
-padding:0;
-box-sizing:border-box;
-font-family:Arial,sans-serif;
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial,sans-serif;
 }
+
 
 body{
-background:#111827;
-color:white;
-padding:20px;
+    background:#111827;
+    color:white;
+    padding:20px;
 }
+
+
 
 .container{
-max-width:600px;
-margin:auto;
+
+    max-width:600px;
+    margin:auto;
+
 }
+
+
 
 h1{
-text-align:center;
-margin-bottom:20px;
+
+    text-align:center;
+    margin-bottom:20px;
+
 }
+
+
+
 
 .bet-card{
-background:#1f2937;
-padding:18px;
-border-radius:15px;
-margin-bottom:15px;
+
+    background:#1f2937;
+    padding:18px;
+    border-radius:15px;
+    margin-bottom:15px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.3);
+
 }
+
+
+
 
 .bet-card h2{
-font-size:20px;
-margin-bottom:10px;
+
+    font-size:20px;
+    margin-bottom:12px;
+    color:white;
+
 }
+
+
+
 
 .bet-card p{
-margin:6px 0;
-color:#d1d5db;
+
+    margin:8px 0;
+    color:#d1d5db;
+    font-size:15px;
+
 }
 
-.status{
-font-weight:bold;
+
+
+
+
+.status,
+.result{
+
+    font-weight:bold;
+
 }
+
+
+
+
+/* STATUS COLORS */
+
 
 .pending{
-color:#facc15;
+
+    color:#facc15;
+
 }
+
+
+
+.approved{
+
+    color:#22c55e;
+
+}
+
+
+
+.rejected{
+
+    color:#ef4444;
+
+}
+
+
+
+
+/* RESULT COLORS */
+
+
+.waiting{
+
+    color:#60a5fa;
+
+}
+
+
 
 .win{
-color:#22c55e;
+
+    color:#22c55e;
+
 }
 
+
+
 .lose{
-color:#ef4444;
+
+    color:#ef4444;
+
+}
+
+
+
+
+
+/* Mobile Responsive */
+
+
+@media(max-width:600px){
+
+
+    body{
+
+        padding:15px;
+
+    }
+
+
+
+    .bet-card{
+
+        padding:15px;
+
+    }
+
+
+
+    .bet-card h2{
+
+        font-size:18px;
+
+    }
+
+
 }
